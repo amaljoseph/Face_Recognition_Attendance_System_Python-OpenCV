@@ -16,7 +16,6 @@ def predict(test_img):
 		label.append(labeltemp)
 	return img, label
 
-#def trainfunction():
 faces, labels = prepare_training_data.prepare_training_data("training-data")
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 face_recognizer.train(faces, np.array(labels))
