@@ -2,10 +2,11 @@
 Created as part of mini project at Cochin University, India
 
 # Requirements
-1. Install *numpy* 'sudo apt-get install python-numpy'
-2. Install *OpenCV*
+### Install *numpy*
+'sudo apt-get install python-numpy'
+### Install *OpenCV*
 'sudo apt-get install libopencv-dev python-opencv'
-3. Install *SQLite3*
+### Install *SQLite3*
 'pip install pysqlite'
 
 
